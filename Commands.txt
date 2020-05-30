@@ -1,0 +1,9 @@
+To run on input file and output 4 files
+
+yacc -d yacc.y
+lex lex.l
+gcc arraylist.c symbolTable.c code_generator.c lex.yy.c y.tab.c -ll
+./a.out
+
+To run gui
+./guiFinal.sh
